@@ -10,27 +10,75 @@
 
   <body>
 
-<!-- Intro -->
+<!-- Home -->
 <div id="desc-intro">
   <h1>Hello, I'm <span class=name> Michael Choi</span>. <br> A full-stack web developer. </h1>
-  <a href="#projects" class="viewprojects">View my work </a>
+  <a href="#projects" class="cssbutton">View my work </a>
 </div>
-<hr>
+
+<!-- Navbar goes here -->
 
 <!-- About -->
+<!--Title
+    skills icons
+    picture left half then text right half-->
 <div id="about">
   <h2 class="titles">About</h2>
+  <div class="skills">
+    <p>skills icons go here over the top row</p>
+  </div>
+<div class="aboutmecontent">
+
+  <div class="aboutmepic">
+    <img id="mepicture" src="photo.jpg" alt="Picture of Michael Choi">
+  </div>
+
+  <div class="aboutblock">
+      <p>A full-stack web developer based in Toronto, Ontario.
+      <br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+  </div>
+
+  </div>
 </div>
 
 <!-- Projects -->
+<!-- flexbox Projects image with description underneath -->
 <div id="projects">
   <h2 class="titles">Projects</h2>
+  <div class="projectclass">
+    <img src="#" alt="">
+    <p>Project 1</p>
+  </div>
+
+  <div class="projectclass">
+    <img src="" alt="">
+    <p>Project 2</p>
+  </div>
+
+  <div class="projectclass">
+    <img src="" alt="">
+    <p>Project 3</p>
+  </div>
+
+  <div class="projectclass">
+    <img src="" alt="">
+    <p>Project 4</p>
+  </div>
 </div>
 
 <!-- Contact -->
 <div id="contact">
-  <h2 class="titles">Contact</h2>
+  <h2 class="titles">Contact me</h2>
+  <p>If you want to work together or have any questions, please feel free to contact me.</p>
+  <form class="contactform" action="index.html" method="post">
+    <input type="text" name="" placeholder="Name" required>
+    <input type="email" name="" placeholder="Email Address" required>
+    <input type="text" name="" placeholder="Message" required>
+    <button class="cssbutton" type="submit" name="button">Submit</button>
+  </form>
 </div>
+
 
   </body>
 </html>
