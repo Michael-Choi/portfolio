@@ -4,7 +4,8 @@ function changeWho(){
   var who=document.querySelector('.whoiam');
   var whoarr=['A designer.',
               'A web developer.',
-              'A problem solver.'
+              'A problem solver.',
+              'An engineer.'
               ];
   if (i>=whoarr.length){
     i=0;
