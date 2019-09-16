@@ -1,0 +1,32 @@
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 6vh;
+  background-color: rgb(50, 50, 50);
+  color: rgb(220, 220, 220);
+  z-index: 10;
+}
+.nav-links {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+}
+.hamburger {
+  display: none;
+}
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(220, 220, 220);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
